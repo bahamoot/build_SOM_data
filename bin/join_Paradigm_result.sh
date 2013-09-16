@@ -25,9 +25,9 @@ fi
 
 count=1
 header="dummy"
-#for gene_file in $input_dir/paradigm_out_*
+for gene_file in $input_dir/paradigm_out_*
 #for gene_file in $input_dir/paradigm_out_2*
-for gene_file in $input_dir/paradigm_out_1*
+#for gene_file in $input_dir/paradigm_out_1*
 do
     file_idx=$( printf "%03d" $count )
     last_tmp_file=$current_tmp_file

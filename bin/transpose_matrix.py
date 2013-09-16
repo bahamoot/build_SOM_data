@@ -24,7 +24,7 @@ raw_join_paradigm_result_file = sys.argv[1]
 output_file = sys.argv[2]
 
 join_result = np.genfromtxt(raw_join_paradigm_result_file, dtype='str', delimiter="\t")
-join_result = filter_zeros_features(join_result)
+#join_result = filter_zeros_features(join_result)
 np.savetxt(output_file, join_result.T, fmt='%s', delimiter="\t")
 
 
