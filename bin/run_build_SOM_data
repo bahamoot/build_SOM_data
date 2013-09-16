@@ -1,0 +1,5 @@
+#!/bin/bash
+
+build_SOM_data_script_file=/home/jessada/development/scilifelab/assignments/20130911_build_SOM_data/bin/build_SOM_data.sh
+
+bash $build_SOM_data_script_file
